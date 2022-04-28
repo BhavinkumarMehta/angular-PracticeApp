@@ -6,5 +6,5 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'Welcome to Customer application ';
+  test = [{fname : "Bhavin", lname:"Mehta"},{fname : "Bhavin1", lname:"Mehta"},{fname : "Bhavin2", lname:"Mehta"}];
 }

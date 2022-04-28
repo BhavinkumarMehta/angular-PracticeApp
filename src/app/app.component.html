@@ -1,4 +1,14 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div *ngFor="let Employee of test">
+  <div>{{ Employee.fname }} {{ Employee.lname }}</div>
+</div>
+
+<table border="1">
+  <tr>
+    <td>First Name</td>
+    <td>Last Name</td>
+  </tr>
+  <tr *ngFor="let Employee of test">
+    <td>{{ Employee.fname }}</td>
+    <td>{{ Employee.lname }}</td>
+  </tr>
+</table>
