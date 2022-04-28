@@ -6,5 +6,9 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  test = [{fname : "Bhavin", lname:"Mehta"},{fname : "Bhavin1", lname:"Mehta"},{fname : "Bhavin2", lname:"Mehta"}];
+  test = [
+    { fname: 'Bhavin', lname: 'Mehta' },
+    { fname: 'Devidas', lname: 'Gaikwad' },
+    { fname: 'Tushar', lname: 'Raut' },
+  ];
 }
